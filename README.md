@@ -2,27 +2,30 @@
 
 ## Installation
 
-To work through these notebooks you will first need to have both python3 and git installed. 
+To work through these notebooks you will first need to have both python3 and git installed.
 
-We will use miniconda as our python installation. . Miniconda is a reduced version of anaconda that comes with fewer packages installed globally. Since we will be using virtual environments we don't install packages globally but rather they are installed locally for every virtual environment on our machine. To download miniconda, follow the instructions [here](https://docs.conda.io/en/latest/miniconda.html) to download python 3.7 for your system. Instructions for installing git can be found [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+We will use miniconda as our python installation. Miniconda is a reduced version of anaconda that comes with fewer packages installed globally. Since we will be using virtual environments we don't install packages globally but rather they are installed locally for every virtual environment on our machine. To download miniconda, follow the instructions [here](https://docs.conda.io/en/latest/miniconda.html) to download python 3.7 for your system. Instructions for installing git can be found [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 ### Virtual Environment
 
-To help with orginazation of packages and to avoid conflict with any system versions of python that might be preinstalled on your operating system, we use virtual environments to isolate our project. This also makes it easier for packaging code that needs to be used in multiple environments.
+To help with organization of packages and to avoid conflict with any system versions of python that might be pre-installed on your operating system, we use virtual environments to isolate our project. This also makes it easier for packaging code that needs to be used in multiple environments.
 
 From the command line we create a virtual environment called `my-project` in the home directory using the following command.
+
 `username:~$ python3 -m venv my-project`
-Now we move into the new folder and clone the resository to ceate local copies of theses notebooks.
-`
-username:~$ cd my-project
-username:~/my-project$ git clone https://github.com/csmithchicago/introduction-notebooks
-`
+
+Now we move into the new folder and clone the repository to create local copies of theses notebooks.
+
+`username:~$ cd my-project`
+`username:~/my-project$ git clone https://github.com/csmithchicago/introduction-notebooks`
+
 We can now activate the virtual environment and install the packages needed for running the notebooks.
-`
-username:~/my-project$ source bin/activate
-(my-project) username:~/my-project$ cd introduction-notebooks
-(my-project) username:~/my-project/introduction-notebooks$ pip install -r requirements.txt
-`
+
+`username:~/my-project$ source bin/activate`
+`(my-project) username:~/my-project$ cd introduction-notebooks`
+`(my-project) username:~/my-project/introduction-notebooks$ pip install -r requirements.txt`
+
 After activation of the virtual environment you will see the name of the environment you are in displayed at the beginning of the bash prompt. To exit a virtual environment run `deactivate` from the command line.
 
 ## Command Line Tools
@@ -106,4 +109,4 @@ IPython Notebook(s) demonstrating pandas functionality.
 
 
 ## Credit
-* repository was forked from Donne Martin's [data science ipython notebooks](https://github.com/donnemartin/data-science-ipython-notebooks.git) repository.
+* Repository was forked from Donne Martin's [data science ipython notebooks](https://github.com/donnemartin/data-science-ipython-notebooks.git) repository.

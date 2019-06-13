@@ -1,9 +1,4 @@
-introduction-notebooks
+Introduction to Python
 Copyright 2019 Corey Smith
 
-This product includes software developed by:
-    Donne Martin [](http://www.apache.org/) under the Apache 2.0 licence
-    Jake VanderPlas [on GitHub](https://github.com/jakevdp/PythonDataScienceHandbook) under the MIT licence
-
-
-This repository contains a variety of content from third-parties.  The third-party content is distributed under the license provided by those parties.
+This product includes software developed by Donne Martin [on GitHub](https://github.com/donnemartin/data-science-ipython-notebooks) under the Apache 2.0 licence.

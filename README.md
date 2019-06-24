@@ -19,15 +19,15 @@ Now we move into the new folder and clone the repository to create local copies 
 
 `username:~$ cd my-project`
 
-`username:~/my-project$ git clone https://github.com/csmithchicago/introduction-notebooks`
+`username:~/my-project$ git clone https://github.com/csmithchicago/introduction-to-python`
 
 We can now activate the virtual environment and install the packages needed for running the notebooks.
 
 `username:~/my-project$ source bin/activate`
 
-`(my-project) username:~/my-project$ cd introduction-notebooks`
+`(my-project) username:~/my-project$ cd introduction-to-python`
 
-`(my-project) username:~/my-project/introduction-notebooks$ pip install -r requirements.txt`
+`(my-project) username:~/my-project/introduction-to-python$ pip install -r requirements.txt`
 
 After activation of the virtual environment you will see the name of the environment you are in displayed at the beginning of the bash prompt. To exit a virtual environment run `deactivate` from the command line.
 
